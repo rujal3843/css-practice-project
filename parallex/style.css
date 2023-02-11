@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.pimg1 {
+  background-image: url(images/image1.png);
+  height: 100%;
+}
+
+.pimg2 {
+  background-image: url(images/image2.png);
+  height: 100%;
+}
+
+.pimg3 {
+  background-image: url(images/image3.png);
+  height: 100%;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+}
+
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+  background-color: #282e34;
+  color: #ddd;
+}
